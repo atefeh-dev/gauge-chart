@@ -1,0 +1,13 @@
+/** @format */
+
+.slider {
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  appearance: none;
+  width: calc(100% + 16px);
+  transform: translateX(-10px);
+  height: 10px;
+  background: transparent;
+  outline: none;
+}

@@ -3,7 +3,11 @@
 import React from "react";
 import "../Style/gauge.css";
 
-const Gauge = () => {
+const Gauge = ({ percent }) => {
+  const calculateNewVal = () => {
+    const newVal = Number(((percent - 0) * 100) / 100);
+    return newVal;
+  };
   return (
     <div className="gauge ">
       <div class="sections">
@@ -11,9 +15,9 @@ const Gauge = () => {
         <div className="section section--orange" style={{ width: "50%" }}></div>
         <div className="section section--red" style={{ width: "25%" }}></div>
       </div>
-      <input type="range" min="0" max="100" value="38" class="slider" />
-      <span class="bubble" style={{ left: "38%" }}>
-        38
+      <input type="range" min="0" max="100" value={percent} class="slider" />
+      <span class="bubble" style={{ left: `${calculateNewVal()}%` }}>
+        {percent}
       </span>
       <div className="line"></div>
       <div className="ticks">

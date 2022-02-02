@@ -73,7 +73,6 @@
 
 .slider::-webkit-slider-thumb {
   appearance: none;
-  cursor: pointer;
   width: 0;
   height: 0;
   border-left: 10px solid transparent;

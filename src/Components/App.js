@@ -5,7 +5,7 @@ import Gauge from "./Gauge";
 const App = () => {
   return (
     <>
-      <Gauge />
+      <Gauge percent="80" />
     </>
   );
 };

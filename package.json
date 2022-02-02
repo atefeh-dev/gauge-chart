@@ -1,7 +1,12 @@
 {
-  "name": "guage",
+  "name": "linear-guage-chart",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -9,13 +14,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "user": "^0.0.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "rm -rf dist && mkdir dist && babel src/Components/Gauge.js -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +44,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.16.8",
-    "@babel/preset-react": "^7.16.7"
+    "@babel/preset-react": "^7.16.7",
+    "babel-plugin-react-remove-properties": "^0.3.0"
   }
 }

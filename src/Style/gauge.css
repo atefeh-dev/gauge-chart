@@ -2,17 +2,22 @@
 
 .gauge {
   position: absolute;
-  height: 20px;
-  max-width: 637px;
+  height: 20%;
+  max-width: 50%;
   width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.bubble {
+  position: absolute;
+  top: -33px;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
 .sections {
   position: absolute;
-  top: 0;
+  top: -7px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -28,12 +33,6 @@
 }
 .section--red {
   background: red;
-}
-
-.units {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .line {
@@ -59,4 +58,25 @@
   top: 10px;
   transform: translateX(-50%);
   font-size: 14px;
+}
+
+.slider {
+  position: absolute;
+  top: -14px;
+  appearance: none;
+  width: calc(100% + 16px);
+  transform: translateX(-10px);
+  height: 10px;
+  background: transparent;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #191919;
 }

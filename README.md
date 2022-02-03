@@ -2,11 +2,11 @@
 
 **Installation**
 
-> npm i linear-guage-chart
+`npm i linear-guage-chart`
 
 **Basic usage**
 
-```
+```ES6
 import Gauge from "./Gauge";
 
 const App = () => {

@@ -5619,6 +5619,20 @@
   "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.4.tgz"
   "version" "2.0.4"
 
+"linear-guage-chart@^0.1.4":
+  "integrity" "sha512-EchGY/61F9oQM0MeJ8kUhctMLNLXMj3emkSQA19JrgXKwpXAW+7imm4uu9tzbi+QC//6q19da/q29aYTmQNiDA=="
+  "resolved" "https://registry.npmjs.org/linear-guage-chart/-/linear-guage-chart-0.1.4.tgz"
+  "version" "0.1.4"
+  dependencies:
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^12.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "react" "^17.0.2"
+    "react-dom" "^17.0.2"
+    "react-scripts" "5.0.0"
+    "user" "^0.0.0"
+    "web-vitals" "^2.1.0"
+
 "lines-and-columns@^1.1.6":
   "integrity" "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg=="
   "resolved" "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"

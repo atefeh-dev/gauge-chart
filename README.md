@@ -20,4 +20,4 @@ const App = () => {
 
 **result**
 
-![Screenshot](gauge.png)
+![Screenshot](https://github.com/atefeh-dev/Gauge-chart/blob/main/gauge.png)

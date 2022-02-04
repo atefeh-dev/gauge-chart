@@ -1,11 +1,11 @@
 /** @format */
 
 import React from "react";
-import Gauge from "./Gauge";
+import Gauge from "linear-gauge-chart";
 const App = () => {
   return (
     <>
-      <Gauge percent="80" />
+      <Gauge percent="30" />
     </>
   );
 };

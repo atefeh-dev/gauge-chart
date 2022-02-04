@@ -1,13 +1,16 @@
 <!-- @format -->
 
+**Demo**
+[Lets See](https://clever-haibt-44a309.netlify.app/)
+
 **Installation**
 
-`npm i linear-guage-chart`
+`npm i linear-gauge-chart`
 
 **Basic usage**
 
 ```ES6
-import Gauge from "./Gauge";
+import Gauge from "linear-gauge-chart";
 
 const App = () => {
   return (
@@ -20,4 +23,6 @@ const App = () => {
 
 **result**
 
-![Screenshot](https://github.com/atefeh-dev/Gauge-chart/blob/main/gauge.png)
+![Screenshot](https://github.com/atefeh-dev/gauge-chart/blob/main/gauge.png)
+
+# gauge-chart
